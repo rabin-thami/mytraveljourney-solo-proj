@@ -2,10 +2,9 @@ import "./style.css"
 
 function Navbar() {
     return(
-
         <header>
             <nav>
-                <h1>HEHEh</h1>
+                <i class="fa-regular fa-earth-americas"></i> <span>my travel journal.</span>
             </nav>
         </header>
     )
