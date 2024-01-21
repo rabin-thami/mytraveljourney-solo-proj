@@ -13,8 +13,7 @@ body {
 
 }
 #root {
-    text-align: center;
-    width: 50vw;
+    width: 40vw;
 }
 
 header {
@@ -31,4 +30,76 @@ header nav {
     align-items: first baseline;
     gap:0.5em;
 
+}
+
+.card_container {
+    margin: 2.82em 0px 0px 3em;
+}
+
+.card {
+    display: flex;
+    gap: 1.19em;
+    margin-bottom: 2em;
+    padding-bottom: 2em ;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card .card_image img{
+    width: 9.5em;
+    height: 12.5em;
+    border-radius: 5px;
+}
+
+.card .card_data_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card_data_container .location_data {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.1rem;
+}
+
+.location_data i {
+    color: #F55A5A;
+}
+
+.location_data .location_name {
+    margin-right: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1.741px;
+    color: #2B283A;
+}
+
+.location_data .location_google {
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+/* .card_data_container .card_title_description {
+
+} */
+
+.card_title_description h1 {
+    margin: 0.25em 0 0.6em 0;
+    font-size: 2rem;
+    transition: 0.3s ease all;
+}
+
+.card_title_description h1:hover {
+    color: #F55A5A;
+    cursor: pointer;
+}
+.card_title_description .card_meta_data {
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+
+.card_title_description .card_description {
+    width: 100%;
 }
