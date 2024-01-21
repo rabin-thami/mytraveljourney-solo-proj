@@ -1,12 +1,11 @@
-import "./style.css"
-
 function Navbar() {
-    return(
-        <header>
-            <nav>
-                <i class="fa-regular fa-earth-americas"></i> <span>my travel journal.</span>
-            </nav>
-        </header>
+    return (
+      <header>
+        <nav>
+            <i class="fa-regular fa-earth-asia"></i>
+            <span>my travel journal.</span>
+        </nav>
+      </header>
     )
 }
 

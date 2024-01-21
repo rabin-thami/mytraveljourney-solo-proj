@@ -1,14 +1,14 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-
-import "./style.css";
-
-import App from "./App.jsx";
-import Navbar from "./Navbar.jsx"
+import "./style.css"
 
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import App from "./App"
+import Navbar from "./Navbar"
+
+ReactDOM.createRoot(document.querySelector("#root")).render(
+    <React.StrictMode>
+        <Navbar />
+        <App />
+    </React.StrictMode>
+)
